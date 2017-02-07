@@ -21,3 +21,113 @@ h2 {
     font-weight: bold;
     font-family: "PT Sans Narrow", Arial, sans-serif;
 }
+
+.product-item h2 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    padding: 0 10px;
+    margin-bottom: 55px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+.main-navigation {
+    width: 800px;
+    float: left;
+}
+
+.logo {
+    width: 140px;
+    float: left;
+}
+
+.main-navigation ul {
+    float: left;
+}
+
+.user-block {
+    width: 85px;
+    float: right;
+}
+
+.breadcrumbs {
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.filters {
+    width: 220px;
+    float: left;
+}
+
+.filter-name {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.filters ul {
+    margin-bottom: 50px;
+}
+
+.catalog {
+    width: 700px;
+    float: right;
+}
+
+.product-item {
+    display: inline-block;
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.product-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.pages {
+    float: left;
+    clear: both;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    clear: both;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.contacts {
+    width: 320px;
+    float: left;
+    margin-right: 80px;
+}
+
+.social {
+    width: 300px;
+    float: left;
+}
+
+.developers {
+    width: 140px;
+    float: right;
+}

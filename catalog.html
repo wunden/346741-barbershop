@@ -6,7 +6,7 @@
     <title>Каталог - Барбершоп «Бородинский»</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header clearfix">
         <div class="container">
             <nav class="main-navigation">
                 <div class="logo">
@@ -38,7 +38,7 @@
     <main class="index-content">
         <div class="container">
             <h1>Средства для ухода</h1>
-                <div class="breadcrumbs">
+            <div class="breadcrumbs">
                    <ul>
                        <li><a href="#">Главная</a></li>
                        <li><a href="#">Магазин</a></li>
@@ -46,35 +46,31 @@
                    </ul>    
                 </div>
             <div class="filters">
-                  
-                
                 <form action="#" method="get">
-                
-                <section class="item-brand">
-                <span class="filter-name">Производители:</span>
-                    
-                    <label><input type="checkbox" name="baxter-of-california" id="baxter-of-california">Baxter of California</label>
-                    <label><input type="checkbox" name="mr-natty" id="mr-natty">Mr Natty</label>
-                    <label><input type="checkbox" name="suavecito" id="suavecito">Suavecito</label>
-                    <label><input type="checkbox" name="malin-goetz" id="malin-goetz">Malin+Goetz</label>
-                    <label><input type="checkbox" name="murrays" id="murrays">Murray's</label>
-                    <label><input type="checkbox" name="american-crew" id="american-crew">American crew</label>
+                    <section class="item-brand">
+                        <span class="filter-name">Производители:</span>
+                        <ul>
+                            <li><label><input type="checkbox" name="baxter-of-california" id="baxter-of-california">Baxter of California</label></li>
+                            <li><label><input type="checkbox" name="mr-natty" id="mr-natty">Mr Natty</label></li>
+                            <li><label><input type="checkbox" name="suavecito" id="suavecito">Suavecito</label></li>
+                            <li><label><input type="checkbox" name="malin-goetz" id="malin-goetz">Malin+Goetz</label></li>
+                            <li><label><input type="checkbox" name="murrays" id="murrays">Murray's</label></li>
+                            <li><label><input type="checkbox" name="american-crew" id="american-crew">American crew</label></li>
+                    </ul>
+                    </section>
+                    <section class="item-group">
+                    <span class="filter-name">Группы товаров:</span>
+                    <ul>
+                        <li><label><input type="radio" name="group" id="shawing">Бритвенные принадлежности</label></li>
+                        <li><label><input type="radio" name="group" id="care">Средства для ухода</label></li>
+                        <li><label><input type="radio" name="group" id="acsessories">Аксессуары</label><br></li>
+                    </ul>
                 </section>
-                    
-                <section class="item-group">
-                <span class="filter-name">Группы товаров:</span>
-                
-                    <label><input type="radio" name="group" id="shawing">Бритвенные принадлежности</label>
-                    <label><input type="radio" name="group" id="care">Средства для ухода</label>
-                    <label><input type="radio" name="group" id="acsessories">Аксессуары</label><br>
-                </section>
-                    
                     <input class="btn" type="submit" value="Показать">
                 </form>
-                
             </div>
 
-            <div class="catalog">
+            <div class="catalog clearfix">
                 <div class="product-item">
                     <a href="#"><img src="img/baxter-travel.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»"></a>
                     <h2>
@@ -155,7 +151,7 @@
                 </div>
                 <div class="pages">
                     <a class="btn" href="#">1</a>
-                    <span class="current">2</span>
+                    <a class="current">2</a>
                     <a class="btn" href="#">3</a>
                     <a class="btn" href="#">4</a>
                 </div>
@@ -163,7 +159,7 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container clearfix">
             <div class="contacts">
                 <p>Барбершоп «Бородинский»<br>
                    Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
